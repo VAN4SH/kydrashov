@@ -7,6 +7,9 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #222222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -50,6 +53,7 @@ nav a:hover {
 
 main {
   padding: 24px 0 40px;
+  flex: 1;
 }
 
 .card {
