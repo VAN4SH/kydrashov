@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Клуб любителей кошек - Галерея</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">🐾 Клуб любителей кошек</h1>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О клубе</a>
+        <a href="events.html">Мероприятия</a>
+        <a href="gallery.html" class="active-link">Галерея</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Галерея кото-эмоций 😺</h2>
+      <p>Нажмите кнопку, чтобы менять порядок emoji:</p>
+      <button id="shuffleEmojiBtn" class="button">Перемешать emoji</button>
+      <div id="emojiGrid" class="emoji-grid">
+        <div class="emoji-card">😺<p>Довольный котик</p></div>
+        <div class="emoji-card">😸<p>Смеющийся котик</p></div>
+        <div class="emoji-card">😹<p>Очень веселый котик</p></div>
+        <div class="emoji-card">😻<p>Котик влюбился</p></div>
+        <div class="emoji-card">😼<p>Хитрый котик</p></div>
+        <div class="emoji-card">🙀<p>Удивленный котик</p></div>
+        <div class="emoji-card">😽<p>Ласковый котик</p></div>
+        <div class="emoji-card">🐱<p>Обычный милый котик</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      Клуб любителей кошек • <span id="year"></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

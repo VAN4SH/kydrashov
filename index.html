@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Клуб любителей кошек</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">🐾 Клуб любителей кошек</h1>
+      <nav>
+        <a class="active-link" href="index.html">Главная</a>
+        <a href="about.html">О клубе</a>
+        <a href="events.html">Мероприятия</a>
+        <a href="gallery.html">Emoji-галерея</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <h2>Добро пожаловать!</h2>
+      <div class="hero-emoji">😺 🐱 😻</div>
+      <p>
+        Это маленький сайт клуба, где мы общаемся, делимся фото и историями
+        про наших любимых кошек.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Что есть в клубе</h2>
+      <ul>
+        <li>📚 Простые советы по уходу за котиками</li>
+        <li>🎉 Небольшие встречи и дружеские мероприятия</li>
+        <li>💬 Тёплое общение с любителями кошек</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Случайный факт о кошках</h2>
+      <button class="button" id="fact-button">Показать факт</button>
+      <div class="fact-box" id="fact-box">Нажмите кнопку, чтобы увидеть факт.</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      Клуб любителей кошек • <span id="year"></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

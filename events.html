@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мероприятия | Клуб любителей кошек</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">🐾 Клуб любителей кошек</h1>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О клубе</a>
+        <a class="active-link" href="events.html">Мероприятия</a>
+        <a href="gallery.html">Emoji-галерея</a>
+        <a href="contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Ближайшие встречи</h2>
+      <p>Можно включить фильтр и оставить только офлайн или онлайн события.</p>
+      <button class="button" id="showAllBtn">Показать все</button>
+      <button class="button" id="showOfflineBtn">Только офлайн</button>
+      <button class="button" id="showOnlineBtn">Только онлайн</button>
+
+      <ul class="events-list" id="eventsList">
+        <li data-type="offline">☕ Встреча в кафе и знакомство с участниками <span class="event-tag">офлайн</span></li>
+        <li data-type="online">💻 Онлайн-лекция о базовом уходе <span class="event-tag">онлайн</span></li>
+        <li data-type="offline">🧸 Сбор игрушек и корма для приюта <span class="event-tag">офлайн</span></li>
+        <li data-type="online">🩺 Q&A с ветеринаром в видео-чате <span class="event-tag">онлайн</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      Клуб любителей кошек • <span id="year"></span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>
